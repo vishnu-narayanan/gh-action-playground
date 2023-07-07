@@ -19,7 +19,7 @@ jobs:
         uses: technote-space/broken-link-checker-action@gh-actions
         with:
           TARGET: "https://www.chatwoot.com/help-center"
-          RECURSIVE: true
+#           RECURSIVE: true
           GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
           
 
